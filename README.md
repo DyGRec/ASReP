@@ -2,7 +2,7 @@
 This is our TensorFlow implementation for the paper:
 SIGIR'20 ([PDF](coming soon)
 ```bibtex
-@inproceedings{liu2020alleviating,
+@inproceedings{liu2021augmenting,
   title={Augmenting Sequential Recommendation with Pseudo-Prior Items via Reversely Pre-training Transformer},
   author={Liu, Zhiwei* and Fan, Ziwei* and Wang, Yu and Yu, Philip S.},
   booktitle={Proceedings of the 44th International ACM SIGIR Conference on Research and Development in Information Retrieval},

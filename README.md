@@ -6,7 +6,9 @@ Zhiwei Liu*, Ziwei Fan*, Yu Wang and Philip S. Yu (2021). Augmenting Sequential 
 The code is implemented based on Tensorflow version of [SASRec](https://github.com/kang205/SASRec).
 Please cite our paper if you use the code.
 
+## Environment Setup
 The code is tested under a Linux desktop (w/ GTX 1080 Ti GPU) with TensorFlow 1.12 and Python 3.6.
+Create the requirement with the requirements.txt
 
 ## Datasets
 We use the Amazon Review datasets Beauty and Cell_Phones_and_Accessories. The data split is done in the

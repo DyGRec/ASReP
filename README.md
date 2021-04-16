@@ -1,7 +1,14 @@
 # ASReP
 This is our TensorFlow implementation for the paper:
-
-Zhiwei Liu*, Ziwei Fan*, Yu Wang and Philip S. Yu (2021). Augmenting Sequential Recommendation with Pseudo-Prior Items via Reversely Pre-training Transformer in SIGIR 2021
+SIGIR'21 ([PDF](coming soon)
+```bibtex
+@inproceedings{liu2021augmenting,
+  title={Augmenting Sequential Recommendation with Pseudo-Prior Items via Reversely Pre-training Transformer},
+  author={Liu, Zhiwei* and Fan, Ziwei* and Wang, Yu and Yu, Philip S.},
+  booktitle={Proceedings of the 44th International ACM SIGIR Conference on Research and Development in Information Retrieval},
+  year={2021}
+}
+```
 
 The code is implemented based on Tensorflow version of [SASRec](https://github.com/kang205/SASRec).
 Please cite our paper if you use the code.

@@ -316,9 +316,9 @@ def evaluate(model, dataset, args, sess, testorvalid):
             idx -= 1
         item_idx = [i_list[0]]
         if args.evalnegsample == -1:
-            item_idx += list(set([i for i in range(itemnum)]) - rated - set([i_list[0]]))
+            item_idx += list(set([i for i in range(1, itemnum+1)]) - rated - set([i_list[0]]))
         else:
-            item_candiates = list(set([i for i in range(itemnum)]) - rated - set([i_list[0]]))
+            item_candiates = list(set([i for i in range(1, itemnum+1)]) - rated - set([i_list[0]]))
             if args.evalnegsample >= len(item_candiates):
                 item_idx += item_candiates
             else:

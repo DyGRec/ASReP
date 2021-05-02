@@ -1,6 +1,8 @@
 # ASReP
 This is our TensorFlow implementation for the paper:
-SIGIR'21 ([PDF](coming soon)
+SIGIR'21 [PDF](https://github.com/DyGRec/ASReP/blob/main/Pre_sequence_Generation.pdf) 
+
+Please cite our paper if you use the code:
 ```bibtex
 @inproceedings{liu2021augmenting,
   title={Augmenting Sequential Recommendation with Pseudo-Prior Items via Reversely Pre-training Transformer},
@@ -10,8 +12,11 @@ SIGIR'21 ([PDF](coming soon)
 }
 ```
 
+## Paper Abstract
+Sequential Recommendation characterizes the evolving patterns by modeling item sequences chronologically. The essential target of it is to capture the item transition correlations. The recent developments of transformer inspire the community to design effective sequence encoders, \textit{e.g.,} SASRec and BERT4Rec. However, we observe that these transformer-based models suffer from the cold-start issue, \textit{i.e.,} performing poorly for short sequences. Therefore, we propose to augment short sequences while still preserving original sequential correlations. We introduce a new framework for \textbf{A}ugmenting \textbf{S}equential \textbf{Re}commendation with \textbf{P}seudo-prior items~(ASReP). We firstly pre-train a transformer with sequences in a reverse direction to predict prior items. Then, we use this transformer to generate fabricated historical items at the beginning of short sequences. Finally, we fine-tune the transformer using these augmented sequences from the time order to predict the next item. Experiments on two real-world datasets verify the effectiveness of ASReP. The code is available on \url{https://github.com/DyGRec/ASReP}.
+
+## Code introduction
 The code is implemented based on Tensorflow version of [SASRec](https://github.com/kang205/SASRec).
-Please cite our paper if you use the code.
 
 ## Environment Setup
 The code is tested under a Linux desktop (w/ GTX 1080 Ti GPU) with TensorFlow 1.12 and Python 3.6.

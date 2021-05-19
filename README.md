@@ -1,6 +1,6 @@
 # ASReP
 This is our TensorFlow implementation for the paper:
-SIGIR'21 [PDF](./Pre_sequence_Generation.pdf) 
+SIGIR'21 [PDF](./Pre_sequence_Generation.pdf) . You may also find it on [Arxiv](https://arxiv.org/abs/2105.00522)
 
 Please cite our paper if you use the code:
 ```bibtex

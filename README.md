@@ -6,7 +6,7 @@ Please cite our paper if you use the code:
 ```bibtex
 @inproceedings{liu2021augmenting,
   title={Augmenting Sequential Recommendation with Pseudo-Prior Items via Reversely Pre-training Transformer},
-  author={Liu, Zhiwei* and Fan, Ziwei* and Wang, Yu and Yu, Philip S.},
+  author={Liu, Zhiwei and Fan, Ziwei and Wang, Yu and Yu, Philip S.},
   booktitle={Proceedings of the 44th International ACM SIGIR Conference on Research and Development in Information Retrieval},
   year={2021}
 }

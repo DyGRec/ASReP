@@ -98,4 +98,7 @@ def auc(ground_truth, prediction):
 
 def mrr(r):
     r = np.array(r)
-    return np.reciprocal(np.where(r==1)[0]+1, dtype=np.float)[0]
+    if np.sum(r) == 0.
+        return 0.
+    else:
+        return np.reciprocal(np.where(r==1)[0]+1, dtype=np.float)[0]

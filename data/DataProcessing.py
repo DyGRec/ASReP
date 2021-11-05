@@ -111,11 +111,11 @@ for user in User_forreversed:
         user_valid_reverse[user] = []
         user_test_reverse[user] = []
     else:
-        user_train_reverse[user] = User[user][:-2]
+        user_train_reverse[user] = User_forreversed[user][:-2]
         user_valid_reverse[user] = []
-        user_valid_reverse[user].append(User[user][-2])
+        user_valid_reverse[user].append(User_forreversed[user][-2])
         user_test_reverse[user] = []
-        user_test_reverse[user].append(User[user][-1])
+        user_test_reverse[user].append(User_forreversed[user][-1])
 
 print(usernum, itemnum)
 
